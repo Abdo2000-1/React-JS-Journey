@@ -9,8 +9,15 @@ export default function MyFirstComponent() {
     age: 30,
     city: "New York",
   };
+  // Every thing is Camel Case in React
+  // Style in JSX
+  const elmStyle = {
+    backgroundColor: "lightblue",
+    padding: "10px",
+    borderRadius: "5px",
+  };
   return (
-    <div>
+    <div style={elmStyle}>
       <h3>{s}Hello, this is my first React component!</h3>
       <h2>{s}</h2>
       <h2> the first number is {a}</h2>
@@ -22,6 +29,16 @@ export default function MyFirstComponent() {
         {" "}
         {person.name} is {person.age} years old and lives in {person.city}.{" "}
       </h2>
+
+      {/* try Style in JSX */}
+
+      <h1 style={{ color: "blue", fontSize: "24px" }}>Welcome to My App</h1>
+
+      <button onClick={SayHello}>Click Me </button>
     </div>
   );
+}
+
+function SayHello() {
+  alert("Hello, welcome to my React App!");
 }
