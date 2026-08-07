@@ -1,0 +1,26 @@
+/* Snake Cased */
+
+.Myname{
+    background-color: #e98888;
+    color: #333;
+}
+.Myname:hover{
+    background-color: #e98888;
+    color: #fff;
+}
+.Myname:active{
+    background-color: #e98888;
+    color: #fff;
+}
+.Yourname{
+    background-color: #88e9e9;
+    color: #333;
+}
+.Yourname:hover{
+    background-color: #88e9e9;
+    color: #fff;
+}
+.Yourname:active{
+    background-color: #88e9e9;
+    color: #fff;
+}
